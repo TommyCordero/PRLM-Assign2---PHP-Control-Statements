@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway:500,700");
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: #fbccbf;
+  background-image: url("../img/cookiespic.jpg");
+  background-size: cover;
+
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  padding: 10px 20px 12px 20px;
+  margin: 0px 0px 0px 2px;
+  color: #fcba63;
+  font-size: 4em;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 20px;
+  margin: 0px;
+}
+
+p {
+  padding: 6px 20px 6px 20px;
+  margin: 0px;
+  font-size: 1.2em;
+}
+
+#cookies{
+  background-color: rgb(187, 162, 107);
+  color: rgb(165, 93, 10);
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+
+nav{
+  text-align: center;
+  font-size: 26px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fcba63;
+}
+
+nav a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+footer{
+  text-align: center;
+}
+
+#title{
+  text-align: center;
+}
+
+h3 {
+  color:#fcba63;
+  padding-left: 0.5%;
+  margin-bottom: 0.1rem;
+}
