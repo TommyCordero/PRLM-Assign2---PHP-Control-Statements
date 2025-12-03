@@ -1,15 +1,15 @@
 <?php 
-    $stock = 9;
+    $Cstock = 9;
     
-   if ($stock >= 10){
+   if ($Cstock >= 10){
     $message = 'Good Availability';
    }
 
-   if ($stock > 0 && $stock < 10){
+   if ($Cstock > 0 && $Cstock < 10){
     $message = 'Low Stock';
    }
 
-   if ($stock == 0){
+   if ($Cstock == 0){
     $message = 'Out of Stock';
    }
 
@@ -45,6 +45,8 @@
 </head> 
 
 <body>
+    <?php include 'basic-functions.php'; ?>
+    <?php write_logo(); ?>
 
     <?php require_once 'header.php'; ?>
 
