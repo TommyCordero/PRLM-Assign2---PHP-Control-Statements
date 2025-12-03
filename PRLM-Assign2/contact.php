@@ -8,7 +8,8 @@
 </head> 
 
 <body>
-
+    <?php include 'basic-functions.php'; ?>
+    <?php write_logo(); ?>
     <?php require_once 'header.php'; ?>
 
     <h2>Contact Us</h2>
@@ -18,3 +19,5 @@
 </body>
 
 </html>
+
+
